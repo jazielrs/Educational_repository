@@ -1,1 +1,1 @@
-# educational_repository
+# Educational_repository
