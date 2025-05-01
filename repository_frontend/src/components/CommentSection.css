@@ -1,0 +1,128 @@
+.comment-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Asegura que ocupe toda la pantalla */
+  width: 100vw; /* Asegura que cubra todo el ancho */
+  background: linear-gradient(to right, #4a90e2, #9013fe);
+}
+
+/* Sección de comentarios */
+.comment-section {
+  background: #1d2c4e; /* Color de fondo */
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 600px; /* Controla el ancho máximo */
+}
+
+/* Formulario de comentarios */
+.comment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Entrada de texto */
+.comment-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+  background: #333;
+  color: white;
+}
+
+/* Botón */
+.comment-button {
+  width: 100%;
+  padding: 10px;
+  background: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.comment-button:hover {
+  background: #357abd;
+}
+
+/* Lista de comentarios */
+.comment-list {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Comentario individual */
+.comment-item {
+  display: flex;
+  background: #333;
+  padding: 15px;
+  border-radius: 8px;
+  align-items: center;
+  color: white;
+}
+
+/* Avatar */
+.comment-avatar {
+  width: 40px;
+  height: 40px;
+  background: #4a90e2;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* Contenido del comentario */
+.comment-content {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.comment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.comment-author {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.comment-date {
+  font-size: 12px;
+  color: #bbb;
+}
+
+.comment-text {
+  margin-top: 5px;
+}
+
+
+.delete-button {
+  background-color: darkred;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.delete-button:hover {
+  background-color: red;
+}

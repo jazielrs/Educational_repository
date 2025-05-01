@@ -1,0 +1,116 @@
+.login-page{
+    background: linear-gradient(to right, #4a90e2, #ffffff);
+}
+
+.resource-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 600px;
+    width: 100vw;
+    background: linear-gradient(to right, #4a90e2, #ffffff);
+}
+  
+.column {
+    display: flex; 
+    flex: 1; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px;
+    height: 100px;
+    border: solid;
+}
+
+.column-text{
+    display: flex; 
+    flex: 1; 
+    flex-direction: column; 
+    justify-content: top; 
+    align-items: center; 
+    height: 5px; 
+}
+
+.row{
+    padding-top: 15px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
+
+
+.card-img-top{
+    height: 50px;
+    width: 80px;
+    border-radius: 15px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease; 
+}
+
+.card-body {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+}
+  
+.card-img-top:hover {
+  transform: scale(1.05); 
+}
+
+.card-text {
+    font-family: 'Arial', sans-serif; 
+    font-size: 15px; 
+    font-weight: bold; 
+    color: #298f2d; 
+    letter-spacing: 2px; 
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    background-color: #4CAF50; 
+    color: white; 
+    font-size: 10px; 
+    padding: 7px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.btn-secondary {
+    background-color: #4c6baf; 
+    color: white; 
+    font-size: 10px; 
+    padding: 7px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.d-flex {
+    display: flex;
+    gap: 10px; 
+}
+  
+.btn:hover {
+    background-color: #ffffff; 
+    transform: scale(1.05); 
+}
+  
+.btn:focus {
+    outline: none; 
+}
+  
+.btn:active {
+    background-color: #388e3c; 
+}
+

@@ -1,0 +1,70 @@
+/* Fondo con degradado */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to right, #4a90e2, #9013fe);
+}
+
+/* Tarjeta de registro */
+.register-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 350px;
+}
+
+/* Título */
+.register-card h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+/* Campos de entrada */
+.register-card input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Botón de registro */
+.register-card button {
+  width: 100%;
+  padding: 10px;
+  background: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+  gap: 8px;
+}
+
+.register-card button:hover {
+  background: #357abd;
+}
+
+/* Mensaje de error o éxito */
+.message {
+  margin-top: 10px;
+  color: red;
+  font-weight: bold;
+}
+
+/* Asegura que el contenedor ocupe toda la pantalla y centre el contenido */
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ocupa toda la pantalla */
+}
