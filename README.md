@@ -16,11 +16,14 @@ Una plataforma educativa desarrollada con **Node.js**, **TypeScript** y **Spring
 
 ### Backend
 
-- **Spring Boot** – Framework Java para la creación de servicios REST.
-- **Node.js** – Entorno de ejecución JavaScript para funcionalidades específicas.
-- **TypeScript** – Superset de JavaScript con tipado estático para mayor robustez.
+- **Spring Boot** : Framework de Java para la creación de servicios REST.
 
 ### Frontend
 
-- **HTML/CSS/JavaScript** - usado para desarrollar las diferentes vistas en la aplicación
-- **Bootstrap** - para un diseño más agradable al usaurio
+- **TypeScript** :  lenguaje tipado estático para mayor robustez.
+
+## Capturas de la aplicación
+
+
+
+
