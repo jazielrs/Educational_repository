@@ -24,6 +24,9 @@ Una plataforma educativa desarrollada con **Node.js**, **TypeScript** y **Spring
 
 ## Capturas de la aplicación
 
-
-
+![Registro de usuarios en la plataforma](images/registro_usuario.png)
+![Login de usuarios en la plataforma](images/login.png)
+![Pagina principal](images/pagina_principal.png)
+![Información de categoría](images/informacion_categoria.png)
+![Foro de discusión](images/foro_discusion.png)
 
