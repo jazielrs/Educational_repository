@@ -1,28 +1,28 @@
 # Educational_repository
 
-# Plataforma Educativa Interactiva
+# Interactive Educational Platform
 
-Una plataforma educativa desarrollada con **Node.js**, **TypeScript** y **Spring Boot**, que permite a los usuarios explorar recursos por categoría, participar en foros y obtener información útil mediante una interfaz moderna y funcional.
+An educational platform developed with **Node.js**, **TypeScript**, and **Spring Boot**, allowing users to explore educational resources by category, participate in forums, and access useful information through a modern and functional interface.
 
-## Funcionalidades Principales
+## Key Features
 
-- **Exploración de Categorías**: Acceso a diferentes recursos educativos mediante botones interactivos.
-- **Foro por Categoría**: Cada categoría incluye un foro donde los usuarios pueden comentar y compartir ideas.
-- **Registro de Usuario**: Los nuevos usuarios pueden crear una cuenta para acceder a la plataforma.
-- **Inicio de Sesión (Login)**: Autenticación de usuarios registrados.
-- **Pop-up Informativo**: Muestra detalles y características de cada categoría al hacer clic.
+- **Category Exploration**: Access various educational resources through interactive buttons.
+- **Category Forum**: Each category includes a forum where users can comment and share ideas.
+- **User Registration**: New users can create an account to access the platform.
+- **Login**: Authentication for registered users.
+- **Informative Pop-up**: Displays details and features of each category when clicked.
 
-## Tecnologías Utilizadas
+## Technologies Used
 
 ### Backend
 
-- **Spring Boot** : Framework de Java para la creación de servicios REST.
+- **Spring Boot**: Java framework for building REST services.
 
 ### Frontend
 
-- **TypeScript** :  lenguaje tipado estático para mayor robustez.
+- **TypeScript**: Statically typed language for increased robustness.
 
-## Capturas de la aplicación
+## Application functionality
 
 ![Registro de usuarios en la plataforma](images/registro_usuario.png)
 ![Login de usuarios en la plataforma](images/login.png)
